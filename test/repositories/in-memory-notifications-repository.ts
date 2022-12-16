@@ -1,6 +1,6 @@
 /* eslint-disable prettier/prettier */
-import { NotificationsRepository } from "src/app/repositories/notifications-repository";
-import { Notification } from "src/app/entities/notification";
+import { NotificationsRepository } from "@app/repositories/notifications-repository";
+import { Notification } from "@app/entities/notification";
 
 export class InMemoryNotificationsRepository implements NotificationsRepository {
 
